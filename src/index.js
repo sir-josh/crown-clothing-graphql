@@ -47,7 +47,8 @@ const client = new ApolloClient({
 
 client.writeData({
   data: {
-    cartDropdownHidden: true
+    cartDropdownHidden: true,
+    cartItems: [],
   }
 });
 
