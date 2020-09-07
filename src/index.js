@@ -49,6 +49,7 @@ client.writeData({
   data: {
     cartDropdownHidden: true,
     cartItems: [],
+    itemCount: 0
   }
 });
 
